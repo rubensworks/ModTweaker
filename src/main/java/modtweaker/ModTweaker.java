@@ -9,6 +9,7 @@ import modtweaker.mods.botania.Botania;
 import modtweaker.mods.chisel.Chisel;
 import modtweaker.mods.extrautils.ExtraUtilities;
 import modtweaker.mods.forestry.Forestry;
+import modtweaker.mods.integrateddynamics.IntegratedDynamics;
 import modtweaker.mods.randomthings.RandomThings;
 import modtweaker.mods.refinedstorage.RefinedStorage;
 import modtweaker.mods.tconstruct.TConstruct;
@@ -52,6 +53,7 @@ public class ModTweaker {
         TweakerPlugin.register("actuallyadditions", ActuallyAdditions.class);
         TweakerPlugin.register("refinedstorage", RefinedStorage.class);
         TweakerPlugin.register("embers", Embers.class);
+        TweakerPlugin.register("integrateddynamics", IntegratedDynamics.class);
 	
 		TweakerPlugin.register("extrautils2", ExtraUtilities.class);
 		
